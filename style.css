@@ -1,0 +1,118 @@
+/*/* Colors and Fonts */
+
+
+body{
+  background-image: url("../images/orange-watercolor-background-free-stock-photo-hd-public-domain.jpg");
+  background-size: cover;
+  /*background: #EBEBEB;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+h1, h3 {
+  font-family: 'Lobster', cursive;
+  color: #F84E09;
+}
+ h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #F18346;
+}
+
+h1{
+
+  font-size: 22px;
+}
+
+h2{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ff6600;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+/* First simple components */
+
+.btn-orange {
+    background-color: #ff6600;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-orange:hover {
+    background-color: #f9ede1;
+  }
+
+
+#movies{
+
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
+}
+
+#img-profile{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #cccccc;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.img-circle{
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container{
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.card {
+    background: #f9ede1;
+    padding: 25px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 4px -4px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
